@@ -1,60 +1,78 @@
-body{
-    background-color:white;
-}
-.row{
-    background-color: lightblue;
-    padding: 20px;
-    margin-bottom: 30px;
-    color:white;
-}
-.titulo{
-    color:#B22222;
-    text-align: center;
+.menu{
+    padding-right: 50px;
 }
 
-.titulosec{
-    color:rosybrown;
-    text-align: center;
-    
-}
-.columna{
-    padding: 10px;
-    margin-left: 20px;
-}
-.parrafo{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 3px;
-    margin-bottom: 1px;
-    color:grey;
-    text-align: center;
+.conten{
+    background-image: url(../IMG/imagen.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.h4{
-    color:#222a2e;
-    margin-bottom: 40px;
-    text-align: center;
-    padding: 30px;
-
+.conten:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    opacity: 0.5;
 }
 
-.h6{
-    margin-bottom:1px;
-    text-align: center;
+.conten h4{
+    position: relative;
+    color: black;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;   
 }
- .imagen:hover{
-     background-color: lightblue;
+.conten h6{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;   
+}
+.contenform{
+    position: relative;
+    font-size: 60px;
+    width: 60%;
+}
+.containerOwnApp {
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    padding-top: 15px;
  }
-
- .imagen{
-     background-image: url(imagen.jpg);
+  
+ .login-page {
+   padding: 18% 0 0;
+   margin: 0 auto 100px;
+   max-width: 360px;
+   position: relative;
  }
- .card-body{
-     color: grey;
+  
+ .login-form {
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
  }
-.body{
-height: 100%;
-width: 100%;
-}
-    
-
+  
+ .login-form-header {
+    padding-top: 16px;
+ }
+  
+ .login-from-row {
+    padding-top: 16px;
+    padding-bottom: 16px;
+ }
+  
+ .login-form-font-header {
+    font-size:30px; 
+    font-weight: bold;
+ }
+  
+ .login-form-font-header span {
+    color: #007C9B;
+ }
