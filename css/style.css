@@ -8,27 +8,31 @@
     height: 600px;
     background-size: cover;
     position: relative;
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .conten:before{
     content: "";
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-color:aqua;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.4;
+   
 }
 
 .conten h4{
     position: relative;
     color: black;
     font-size: 60px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 60%;   
 }
 .conten h6{
@@ -44,7 +48,7 @@
     width: 60%;
 }
 .containerOwnApp {
-    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+    box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.6);
     padding-top: 15px;
  }
   
@@ -76,3 +80,84 @@
  .login-form-font-header span {
     color: #007C9B;
  }
+
+ /*----Estilo para los textos hoja Servicios realizados-----*/
+
+.titulo{
+    text-align:center;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+.titulosecundario{
+    text-align:center;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.p{
+    background-color: grey;
+}
+
+
+.parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    color:#ff4a52;
+    text-align:center;
+    position:absolute;
+   bottom: 280px;
+   margin-left: 60px;
+}
+
+.parrafobuscar{
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white
+}
+
+
+/* estilo para auto Opel Corsa*/
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    margin-left: 150px;
+    
+  }
+  
+  .gallery:hover {
+    border: 2px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .desc {
+    padding: 18px;
+    text-align: center;
+    
+  }
+
+.parrafocorsa{
+color:black;
+font-size: 22px;
+}
+.colorbackcorsa{
+    background-color:#008080;
+}
+.marginbtnestado{
+    
+    border-style: solid;
+    border-width: 3px;
+    border-color: brown;
+}
+
+

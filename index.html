@@ -12,37 +12,109 @@
     <title>taller MKWEEN</title>
 </head>
 <body>
-    <div class="container-fluid">
+     <!--titulo-->
+     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-6">
+            <div class="col-md-6">
                 <h1 class="titulo">
-                    Taller Mecanico Rayo MCKEEN
+                Taller Mecanico Rayo MCKEEN
                 </h1>
+            
             </div>
         </div>
     </div>
-        <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-6">    
-                        <button type="button" class="btn btn-info">Menú</button>
-                        <button type="button" class="btn btn-info">Trabajos</button>
-                        <button type="button" class="btn btn-info">Nuestra Empresa</button>
-                        <button type="button" class="btn btn-info">Contacto</button>
-                        <button type="button" class="btn btn-info">Servicios Realizados</button>
-                    </div>    
-                </div>   
-        </div>  
+<!--Menu-->
     <div class="container-fluid">
         <div class="row justify-content-center">
-                <div class="conten h4">
-                    <h4>
-                        Taller Mecanico Rayo MCKEEN 
-                    </h4>
+            <div class="col-md-auto">    
+                <a href="index.html"><button type="button" class="btn btn-info">Trabajos</button></a>
+                <a href="#"><button type="button" class="btn btn-info">Nuestra Empresa</button></a>
+                <a href="contacto.html"><button type="button" class="btn btn-info">Contacto</button></a>
+                <a href="ServiciosRealizados.html"><button type="button" class="btn btn-info">Servicios Realizados</button></a>
+            </div>    
+        </div>   
+    </div>  
+
+<!--comienzo de lineas para el carrusel--> 
+                    <div class="container-fluid">
+                        <section class="margen-contacto">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 mt-1 conten h4">
+                                    <div class="carousel slide" id="secondary-carousel" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#secondary-carousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#secondary-carousel" data-slide-to="1"></li>
+                                            <li data-target="#secondary-carousel" data-slide-to="2"></li>
+                                        </ol>
+<!--titulo cabezecera carrusel-->
+                                        <div class="titulosecundario">Nuestros Trabajos </div>
+<!--lineas para primera imagen y texto-->
+                                        <div class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="carousel-caption d-block">
+                                                        <div class="h3 col-md-auto h2 text-capitalize parrafo">
+                                                            <strong><em> cambio de aceite</em></strong>
+                                                        </div>
+                                                    </div>
+                                                    <img src="IMG/carrusel01.jpg"  width="800" height="400" alt="">
+                                                </div>
+<!--lineas para segunda imagen y texto-->
+                                                <div class="carousel-item">
+                                                    <div class="carousel-caption d-block">
+                                                        <p class= "h3 col-md-auto h2 text-capitalize parrafo"> 
+                                                            <strong>
+                                                                <em>
+                                                                mantencion por catalogo de servicio
+                                                                </em>
+                                                            </strong>
+                                                        </p>
+                                                    </div>
+                                                    <img src="IMG/mantencion01.jpg" width="800" height="400" alt="">
+                                                </div>
+    <!--lineas para tercera imagen y texto-->
+                                                <div class="carousel-item">
+                                                    <div class="carousel-caption d-block">
+                                                        <p class= "h3 col-md-auto h2 text-capitalize parrafo">
+                                                            mantencion de Frenos
+                                                        </p>
+                                                    </div>
+                                                    <img src="IMG/cambio de freno.jpg" width="800" height="400" alt="">
+                                                </div>
+    <!--lineas para cuarta imagen y texto-->
+                                                <div class="carousel-item">
+                                                    <div class="carousel-caption d-block">
+                                                        <p class= "h3 col-md-auto h2 text-capitalize parrafo"> 
+                                                            <strong>
+                                                                <em>
+                                                                Alineacion y Balanceo de Neumaticos
+                                                                </em>
+                                                            </strong>
+                                                        </p>
+                                                    </div>
+                                                    <img src="IMG/mantenciondefrenos.jpg" width="800" height="400" alt="">
+                                                </div>
+<!--botoneras anterior y siguiente-->
+                                                <a href="#secondary-carousel" class="carousel-control-prev" data-slide="prev">
+                                                    <span style="color:white;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span style="color:#0041ff;" class="sr-only">Anterior</span>
+                                                </a>
+                                                <a href="#secondary-carousel" class="carousel-control-next" data-slide="next">
+                                                    <span style="color: white;" class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span style="color:#0041ff;" class="sr-only">Siguiente</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </section> 
+                    </div>
                 </div>
-        </div>    
-    </div>        
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-</body>
-<html>
+            </div>
+        </div>        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    </body>
+</html>
